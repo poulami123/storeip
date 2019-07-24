@@ -40,15 +40,15 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.col-25 {
+.col-45 {
   float: left;
-  width: 25%;
+  width: 45%;
   margin-top: 6px;
 }
 
-.col-75 {
+.col-55 {
   float: left;
-  width: 75%;
+  width: 55%;
   margin-top: 6px;
 }
 
@@ -61,7 +61,7 @@ input[type=submit]:hover {
 
 
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-45, .col-55, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }

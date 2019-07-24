@@ -72,17 +72,17 @@ input[type=submit]:hover {
 <div class="container">
   <form name="myForm" id="myForm" action="ip_store.php"  onsubmit="return validateForm()" method="post">
     <div class="row">
-      <div class="col-25">
+      <div class="col-45">
         <label for="usertype">User Type</label>
       </div>
-      <div class="col-75">
+      <div class="col-55">
         <select name="usertype" id="usertype">
           <option value="1">Basic</option>
           <option value="2">Premium</option>
           </select>
       </div>
     </div>
- <div class="row">
+   <div class="row">
       <input type="submit" value="Submit">
     </div>
   </form>

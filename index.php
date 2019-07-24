@@ -27,7 +27,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  float: left;
 }
 
 input[type=submit]:hover {
@@ -40,9 +40,9 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.col-45 {
+.col-10 {
   float: left;
-  width: 45%;
+  width: 10%;
   margin-top: 6px;
 }
 
@@ -61,7 +61,7 @@ input[type=submit]:hover {
 
 
 @media screen and (max-width: 600px) {
-  .col-45, .col-55, input[type=submit] {
+  .col-10, .col-55, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
@@ -72,7 +72,7 @@ input[type=submit]:hover {
 <div class="container">
   <form name="myForm" id="myForm" action="ip_store.php"  onsubmit="return validateForm()" method="post">
     <div class="row">
-      <div class="col-45">
+      <div class="col-10">
         <label for="usertype">User Type</label>
       </div>
       <div class="col-55">
@@ -83,7 +83,12 @@ input[type=submit]:hover {
       </div>
     </div>
    <div class="row">
-      <input type="submit" value="Submit">
+       <div class="col-10">
+        
+      </div>
+       <div class="col-55">
+        <input type="submit" value="Submit">
+      </div>
     </div>
   </form>
 </div>
